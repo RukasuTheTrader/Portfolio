@@ -29,7 +29,7 @@ p,li,.button {
   display: inline-block;
   border-radius: 30%;
   padding: 10px 20px;
-  margin: 20px;
+  margin: 20px 0px 20px 20px;
 }
 
 .hobbys {
@@ -37,7 +37,7 @@ p,li,.button {
   display: inline-block;
   border-radius: 30%;
   padding: 10px 20px;
-  margin: 20px;
+  margin: 20px 0px 20px 20px;
 }
 
 .contact {
@@ -45,6 +45,6 @@ p,li,.button {
   display: inline-block;
   border-radius: 30%;
   padding: 10px 20px;
-  margin: 20px;
+  margin: 20px 0px 20px 20px;
 }
 
