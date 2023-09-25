@@ -24,6 +24,7 @@ p,li,.button {
   display: inline-block;
   width: 125px;
   height: 25px;
+  margin: 20px;
 }
 
 .hobbys {
@@ -31,6 +32,7 @@ p,li,.button {
   display: inline-block;
   width: 125px;
   height: 25px;
+  margin: 20px;
 }
 
 .contact {
@@ -38,5 +40,6 @@ p,li,.button {
   display: inline-block;
   width: 125px;
   height: 25px;
+  margin: 20px;
 }
 
