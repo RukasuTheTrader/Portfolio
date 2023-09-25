@@ -21,13 +21,16 @@ p,li,.button {
 
 .resume {
   background-color: yellow;
+  display: inline-block;
 }
 
 .hobbys {
   background-color: #50C7C3;
+  display: inline-block;
 }
 
 .contact {
   background-color: lightgreen;
+  display: inline-block;
 }
 
