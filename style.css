@@ -7,6 +7,9 @@ h1 {
   text-align: center;
 }
 
+#h1contact,#h1hobbys {
+  text-align: left;
+
 h2 {
   text-align: left;
 }
