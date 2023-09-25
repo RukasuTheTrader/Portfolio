@@ -45,3 +45,7 @@ p,li,.button {
   margin: 20px;
 }
 
+#icon {
+  border-radius: 50%;
+}
+
