@@ -19,3 +19,15 @@ p,li,.button {
   font-family: 'Titillium Web', sans-serif;
 }
 
+.resume {
+  background-color: yellow;
+}
+
+.hobbys {
+  background-color: #50C7C3;
+}
+
+.contact {
+  background-color: lightgreen;
+}
+
