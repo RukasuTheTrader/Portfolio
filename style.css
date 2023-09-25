@@ -12,8 +12,8 @@ h2 {
 }
 
 .button {
-  color: lightgreen;
-  position: relative 25% 25%;
+  color: black;
+  position: relative center;
   z-index: 1;
 }
 
