@@ -22,15 +22,21 @@ p,li,.button {
 .resume {
   background-color: yellow;
   display: inline-block;
+  width: 125px;
+  height: 25px;
 }
 
 .hobbys {
   background-color: #50C7C3;
   display: inline-block;
+  width: 125px;
+  height: 25px;
 }
 
 .contact {
   background-color: lightgreen;
   display: inline-block;
+  width: 125px;
+  height: 25px;
 }
 
