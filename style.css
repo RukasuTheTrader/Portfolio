@@ -1,50 +1,88 @@
-html {
-  background-color: black;
-  color: white;
+/* Reset some default styles in browsers */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Titillium Web', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding-top: 50px; /* Abstand von der oberen Kante */
+}
+
+header {
+    text-align: center;
+    padding: 1em 0;
 }
 
 h1 {
-  text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 10px;
 }
 
-#h1contact,#h1hobbys {
-  text-align: left;
+hr {
+    margin: 20px 0;
+    border: none;
+    border-top: 1px solid #ddd;
+}
+
+img {
+    border-radius: 50%; /* Kreisförmiges Bild */
+    box-shadow: 0px 0px 10px 0px #000000; /* Schatten um das Bild */
 }
 
 h2 {
-  text-align: left;
+    font-size: 2em;
+    margin-bottom: 20px;
 }
 
+p {
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 3em 0;
+    background: #333;
+    color: #fff;
+}
+
+/* Buttons Styling */
 .button {
-  color: black;
-  position: relative;
+    display: inline-block;
+    font-size: 16px;
+    color: #fff;
+    background: #333;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease;
 }
 
-p,li,.button {
-  font-family: 'Titillium Web', sans-serif;
+.button:hover {
+    background: #555;
 }
 
-.resume {
-  background-color: yellow;
-  display: inline-block;
-  border-radius: 10%;
-  padding: 5px 10px;
-  margin: 20px 0px 20px 20px;
-}
-
-.hobbys {
-  background-color: #50C7C3;
-  display: inline-block;
-  border-radius: 10%;
-  padding: 5px 10px;
-  margin: 20px 0px 20px 20px;
-}
-
+/* Positioning and styling the divs containing buttons */
+.hobbys,
 .contact {
-  background-color: seagreen;
-  display: inline-block;
-  border-radius: 10%;
-  padding: 5px 10px;
-  margin: 20px 0px 20px 20px;
+    text-align: center;
+    margin: 20px 0;
 }
 
+/* Style for nested unordered list */
+ul ul {
+    margin-left: 20px;
+}
